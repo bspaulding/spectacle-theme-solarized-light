@@ -1,0 +1,31 @@
+{
+  "name": "spectacle-theme-solarized-light",
+  "version": "1.0.0",
+  "description": "A theme for Spectacle based on Solarized (Light)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bspaulding/spectacle-theme-solarized-light.git"
+  },
+  "keywords": [
+    "spectacle",
+    "theme",
+    "solarized",
+    "light"
+  ],
+  "author": "Bradley J. Spaulding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bspaulding/spectacle-theme-solarized-light/issues"
+  },
+  "homepage": "https://github.com/bspaulding/spectacle-theme-solarized-light#readme",
+  "devDependencies": {
+    "babel-cli": "6.14.0",
+    "babel-plugin-transform-object-rest-spread": "6.8.0",
+    "babel-preset-es2015": "6.14.0"
+  }
+}
