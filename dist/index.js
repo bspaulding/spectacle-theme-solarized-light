@@ -18,7 +18,7 @@ var initialTheme = (0, _default2.default)({
 	primary: "#FDF6E3",
 	secondary: "#D2A03E",
 	tertiary: "#FD853D",
-	quartenary: "#657B83"
+	quarternary: "#657B83"
 }, {
 	primary: "Menlo"
 });
@@ -27,10 +27,10 @@ var theme = exports.theme = _extends({}, initialTheme, {
 	screen: _extends({}, initialTheme.screen, {
 		components: _extends({}, initialTheme.screen.components, {
 			code: _extends({}, initialTheme.screen.components.code, {
-				color: initialTheme.screen.colors.quartenary
+				color: initialTheme.screen.colors.quarternary
 			}),
 			text: _extends({}, initialTheme.screen.components.text, {
-				color: initialTheme.screen.colors.quartenary
+				color: initialTheme.screen.colors.quarternary
 			}),
 			link: _extends({}, initialTheme.screen.components.link, {
 				color: initialTheme.screen.colors.secondary
